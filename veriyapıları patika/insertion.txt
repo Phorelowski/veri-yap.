@@ -1,0 +1,33 @@
+Verilen dizi: [22, 27, 16, 2, 18, 6]
+
+1.Adım: [22]
+2.Adım: [22, 27] 
+3.Adım: [16, 22, 27] 
+4.Adım: [2, 16, 22, 27] 
+5.Adım: [2, 16, 18, 22, 27] 
+6.Adım: [2, 6, 16, 18, 22, 27] 
+Insertion Sort Big-O Gösterimi:
+
+Insertion Sort, en iyi durumda (dizi zaten sıralıysa) O(n) zaman karmaşıklığına sahip olur.
+Ancak, ortalama ve en kötü durumlarda O(n^2) zaman karmaşıklığına sahiptir.
+
+22, 27, 16, 2, 18, 6] dizisi Insertion Sort kullanılarak sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına gireceğini belirleyelim:
+
+Dizi sıralandıktan sonra: [2, 6, 16, 18, 22, 27]
+(Bu kapsamda 18, dizinin ortasında bulunuyor.)
+
+Sonuç olarak, 18 sayısı "Average case" kapsamına girer.
+
+
+Selection Sort İlk 4 Adım:
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (En küçük eleman olan 2, dizinin başına getirilir)
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (3, 2'den küçük olduğu için yer değiştirmez)
+Adım: [2, 3, 4, 8, 7, 9, 5, 15, 6] (En küçük eleman olan 4, dizinin başına getirilir)
+Adım: [2, 3, 4, 5, 7, 9, 8, 15, 6] (En küçük eleman olan 5, dizinin başına getirilir)
+Dizinin ilk 4 adımda sıralanmış hali: [2, 3, 4, 5, 7, 9, 8, 15, 6]
+
+Not: Selection Sort, veri kümesinin boyutuna bağlı olarak performansı düşük bir sıralama algoritmasıdır ve genellikle daha büyük veri setlerinde tercih edilmez.
+Big-O gösterimi O(n^2) zaman karmaşıklığıdır.

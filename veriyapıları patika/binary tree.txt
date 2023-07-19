@@ -1,0 +1,80 @@
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+BST aşamaları: ilk eleman 7 olduğundan ; 
+1.Adım: sonra 5 eklenir ve
+         7
+        /
+       5
+  
+2.Adım: sonra 1 eklenir ve
+          7
+        /
+       5
+      /
+     1
+        
+
+
+3.Adım: sonra 8 eklenir ve
+         7
+        / \
+       5   8
+      /
+     1
+
+4.Adım: sonra 3 eklenir ve
+         7
+        / \
+       5   8
+      / \
+     1   3
+
+5.Adım: sonra 6 eklenir ve
+         7
+        / \
+       5   8
+      / \
+     1   6
+          \
+           3
+
+6.Adım: sonra 0 eklenir ve
+         7
+        / \
+       5   8
+      / \
+     1   6
+    /     \
+   0       3
+
+7.Adım: sonra 9 eklenir ve
+         7
+        / \
+       5   8
+      / \   \
+     1   6   9
+    /     \
+   0       3
+
+8.Adım: sonra 4 eklenir ve
+         7
+        / \
+       5   8
+      / \   \
+     1   6   9
+    /     \
+   0       3
+            \
+             4
+
+9.Adım: sonra 2 eklenir ve
+         7
+        / \
+       5   8
+      / \   \
+     1   6   9
+    /     \
+   0       3
+          /   \
+         2     4
+
